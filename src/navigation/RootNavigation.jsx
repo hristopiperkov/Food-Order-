@@ -11,7 +11,7 @@ export default function RootNavigator() {
     
     return (
         <Tabs.Navigator>
-            <Tabs.Screen name="HomeTab" component={HomeNavigator} options={{ headerShown: false, tabBarIcon: ({ color, size }) => <Ionicons name="home" size={size} color={color} /> }} />
+            <Tabs.Screen name="Restaurants" component={HomeNavigator} options={{ headerShown: false, tabBarIcon: ({ color, size }) => <Ionicons name="home" size={size} color={color} /> }} />
             <Tabs.Screen name="CartTab" component={CartNavigator} options={{ headerShown: false, tabBarIcon: ({ color, size }) => <Ionicons name="cart" size={size} color={color} /> }} />
             <Tabs.Screen name="Info" component={InfoScreen} options={{ tabBarIcon: ({ color, size }) => <Ionicons name="information-circle" size={size} color={color} /> }} />
         </Tabs.Navigator>
