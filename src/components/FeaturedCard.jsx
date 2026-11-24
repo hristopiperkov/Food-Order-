@@ -1,4 +1,4 @@
-import {View, Text, Image, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet, Image } from "react-native";
 
 export default function FeaturedCard({
     imageUrl,
@@ -13,7 +13,7 @@ export default function FeaturedCard({
             <View style={styles.content}>
                 <Text style={styles.title}>{name}</Text>
                 <Text style={styles.subtitle}>{description}</Text>
-                <Text style={styles.price}>${price.toFixed(2)}</Text>
+                <Text style={styles.price}>${price}</Text>
             </View>
         </View>
     );
